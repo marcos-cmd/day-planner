@@ -3,8 +3,8 @@ const $currentDay = $('#currentDay');
 
 $currentDay.text(moment().format('MMMM Do YYYY, h:mm:ss a'));
 
-//Presented with Hour Blocks 8 am - 6 pm
-
+//Presented with Hour Blocks 9 am - 5 pm
+//in HTML already
 //Timeblocks are color coded based on time
 
 //Past Color
