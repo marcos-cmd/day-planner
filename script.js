@@ -48,15 +48,15 @@ $(document).ready(function () {
     })
 
     //getting stored content and sending to the screen
-    $("#9").append(localStorage.getItem("9AM"));
-    $("#10").append(localStorage.getItem("10AM"));
-    $("#11").append(localStorage.getItem("11AM"));
-    $("#12").append(localStorage.getItem("12PM"));
-    $("#1").append(localStorage.getItem("1PM"));
-    $("#2").append(localStorage.getItem("2PM"));
-    $("#3").append(localStorage.getItem("3PM"));
-    $("#4").append(localStorage.getItem("4PM"));
-    $("#5").append(localStorage.getItem("5PM"));
+    $("#9").text(localStorage.getItem("9AM"));
+    $("#10").text(localStorage.getItem("10AM"));
+    $("#11").text(localStorage.getItem("11AM"));
+    $("#12").text(localStorage.getItem("12PM"));
+    $("#1").text(localStorage.getItem("1PM"));
+    $("#2").text(localStorage.getItem("2PM"));
+    $("#3").text(localStorage.getItem("3PM"));
+    $("#4").text(localStorage.getItem("4PM"));
+    $("#5").text(localStorage.getItem("5PM"));
 
 
 })
